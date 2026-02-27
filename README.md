@@ -1,3 +1,4 @@
+![R3](https://github.com/user-attachments/assets/f0f39117-56a8-488c-afb4-286e91c85088)
 ## Hola  👋
 
 <!--
