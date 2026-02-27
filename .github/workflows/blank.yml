@@ -1,0 +1,67 @@
+📱 App Roque & Sandoval - Gestión Contable Inteligente
+
+Bienvenido al repositorio oficial de la aplicación móvil de Roque & Sandoval Contadores Asociados. Esta herramienta ha sido diseñada para transformar la relación entre el contador y el empresario, brindando soluciones rápidas, eficientes y seguras en la palma de su mano.
+🚀 Funcionalidades Principales
+
+La aplicación integra herramientas críticas para la salud financiera y tributaria de cualquier negocio:
+
+    Calculadora de Detracciones (SPOT): Desglose automático de facturas en Soles y Dólares, facilitando el depósito exacto al Banco de la Nación.
+
+    Cruce con SIRE (SUNAT): Módulo de auditoría preventiva para detectar facturas omitidas y asegurar el uso correcto del crédito fiscal.
+
+    Validador de RUC: Verificación en tiempo real del estado (Activo/Habido) de proveedores y clientes.
+
+    Tablero de Vencimientos: Calendario personalizado basado en el último dígito del RUC para evitar multas por declaraciones tardías.
+
+    Generador de Reportes PDF: Exportación de liquidaciones de impuestos con un diseño profesional y corporativo.
+
+🎨 Identidad Corporativa
+
+El diseño de la interfaz respeta estrictamente la identidad visual de la firma:
+
+    Colores: Azul Marino Profundo (#1B264F) para profesionalismo y Naranja/Rojo Coral (#E63946) para acciones clave.
+
+    Banners de Servicio: Secciones visuales dedicadas a Asesoría Tributaria y Asesoría Laboral.
+
+⚖️ Sustento Legal y Normativo
+
+Esta aplicación opera bajo el marco legal peruano vigente:
+
+    Tributario: Alineado al Código Tributario (D.L. 816) y la normativa del SIRE (R.S. 112-2021/SUNAT).
+
+    Laboral: Basado en la Ley de Productividad y Competitividad Laboral (D.L. 728) para la prevención de contingencias ante SUNAFIL.
+
+    Financiero: Cumplimiento del Sistema de Pago de Obligaciones Tributarias (D.L. 940).
+
+📞 Soporte y Contacto
+
+Para consultas personalizadas o soporte técnico sobre la herramienta:
+
+    WhatsApp: 933 825 148 / 963 358 583.
+
+    Email: roque.sandoval@contadores.com.pe.
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
