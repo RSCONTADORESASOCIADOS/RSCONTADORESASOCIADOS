@@ -1,3 +1,4 @@
+![R2](https://github.com/user-attachments/assets/35a0d29b-4715-4f36-ae83-f462d8cffdc9)
 ![R3](https://github.com/user-attachments/assets/f0f39117-56a8-488c-afb4-286e91c85088)
 ## Hola  👋
 
